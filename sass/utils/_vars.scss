@@ -1,0 +1,64 @@
+
+    $text-color: #757575;
+    $top-color: #212121;
+    $big-fon-color: #ffffff;
+    $acent-color: #2196f3;
+    $accentBtnColor: #188CE8;
+
+        :root {
+            --text-color: #757575;
+            --top-color: #212121;
+            --big-fon-color: #ffffff;
+            --acent-color: #2196f3;
+            --accentBtnColor: #188CE8;
+        }
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    background-color: var(--top-color);
+}
+
+header {
+    border-bottom: 1px solid #ececec;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--big-fon-color);
+    color: var(--top-color);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}

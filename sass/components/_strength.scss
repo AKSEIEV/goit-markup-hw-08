@@ -1,0 +1,103 @@
+.strength {
+    padding-top: 94px;
+}
+
+.strength--container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.strength__list {
+    list-style: none;
+    gap: 30px;
+    display: block;
+    display: flex;
+    justify-content: center;
+}
+
+.strength__item-antenna {
+   &::before {
+        content: "";
+        display: block;
+        height: 120px;
+        margin-bottom: 30px;
+        background: #f5f4fa;
+        background-image: url(../img/icons.svg/antena.svg);
+        background-size: 65px 70px;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 4px;
+        width: 270px;
+}
+  
+}
+
+
+.strength__item-clock {
+    &::before {
+        content: "";
+        display: block;
+        height: 120px;
+        margin-bottom: 30px;
+        background: #f5f4fa;
+        background-image: url(../img/icons.svg/chasiki.svg);
+        background-size: 67px 70px;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 4px;
+        width: 270px;
+    }
+}
+
+.strength__item-graph {
+  &::before {
+    content: "";
+    display: block;
+    height: 120px;
+    margin-bottom: 30px;
+    background: #f5f4fa;
+    background-image: url(../img/icons.svg/grafik.svg);
+    background-size: 70px 54px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4px;
+    width: 270px;
+    }
+   }
+
+.strength__item-space {
+     &::before {
+        content: "";
+        display: block;
+        height: 120px;
+        margin-bottom: 30px;
+        background: #f5f4fa;
+        background-image: url(../img/icons.svg/kosmos.svg);
+        background-size: 55px 61px;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 25px 100px;
+        border-radius: 4px;
+        width: 270px;
+}
+
+}
+
+.strength__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.strength__text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}

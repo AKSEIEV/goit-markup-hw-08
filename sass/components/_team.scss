@@ -1,0 +1,110 @@
+.title-main-medium {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.flex-team {
+    background: #f5f4fa;
+    display: block;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.list-item {
+    display: contents;
+    gap: 30px;
+    padding-bottom: 94px;
+}
+
+.border-item {
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: auto;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    background: #ffffff;
+}
+
+.item-team {
+    text-align: center;
+}
+
+.container-team {
+    display: block;
+    display: flex;
+    padding-bottom: 95px;
+    background: #f5f4fa;
+}
+
+.list-team {
+    background: #f5f4fa;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.item-team img {
+    border-radius: 0px;
+}
+
+.title-main-tiny {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
+}
+
+.item-team-mini {
+    text-align: center;
+}
+
+.mini-text {
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+
+.soc-seti-list {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.soc-seti-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.soc-seti-item .soc-seti-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    color: #afb1b8;
+    background-color: var(--big-fon-color);
+    border-radius: 50%;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover,
+        &:focus {
+                color: var(--big-fon-color);
+                background-color: #2196f3;
+            }
+}
+
+.soc-seti-icon {
+    fill: currentColor;
+}
+
