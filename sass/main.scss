@@ -1,6 +1,7 @@
 
 
 @import './utils/vars';
+@import './utils/breakpoints';
 
 
 @import './components/main-nav';
@@ -14,5 +15,9 @@
 
 @import './components/portfolio';
 @import './components/flex-container';
+
+@import './components/container';
+
+
 
 
