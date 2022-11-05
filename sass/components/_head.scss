@@ -1,14 +1,26 @@
 .head {
     background: #2f303a;
     text-align: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 118px;
+    
+    @media screen and (min-width:480px) {
+           
+        }
+    
+        @media screen and (min-width:768px) {
+            
+        }
+    
+        @media screen and (min-width:1200px) {
+            text-align: center;
+            padding-top: 200px;
+                padding-bottom: 200px;
+        }
 }
 
 .overlay {
     content: "";
-    width: 1200px;
-    height: 600px;
+    
     margin-left: auto;
     margin-right: auto;
     outline: 1px solid black;
@@ -17,29 +29,90 @@
         url("../img/fon/fon.jpg");
     background-repeat: no-repeat;
 
-    @media screen and (max-width:480px) {
-            width: 100%;
+    @media screen and (max-width:479px) {
+            width: 480px;
+            height: 400px;
         }
     
-        @media screen and (max-width:768px) {
+        @media screen and (max-width:767px) {
             width: 768px;
         }
     
-        @media screen and (max-width:1200px) {
+        @media screen and (max-width:1199px) {
             width: 1200px;
+            height: 600px;
         }
 }
+.overlay.responsive {
+   max-width: 480px;
+   
+@media screen and (min-width:480px) {
+    height: 400px;
+}
+
+    @media screen and (min-width:768px) {}
+
+    @media screen and (min-width:1200px) {
+        height: 600px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .overlay.responsive {
+        width:auto ;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .overlay.responsive {
+        max-width: 768px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .overlay.responsive {
+        max-width: 1200px;
+    }
+}
+    
 
 .title-main-big {
     color: $big-fon-color;
     font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
+    font-size: 26px;
+    line-height: 1.61;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    max-width: 696px;
+    max-width: 360px;
     margin: 0 auto;
+
+    @media screen and (min-width:480px) {
+                font-weight: 900;
+                font-size: 26px;
+                line-height: 1.61;
+                text-align: center;
+                letter-spacing: 0.06em;
+                text-transform: uppercase;
+        }
+    
+        @media screen and (min-width:768px) {
+            
+        }
+    
+        @media screen and (min-width:1200px) {
+            color: $big-fon-color;
+                font-weight: 900;
+                font-size: 44px;
+                line-height: 1.36;
+                text-align: center;
+                letter-spacing: 0.06em;
+                text-transform: uppercase;
+                max-width: 696px;
+                margin: 0 auto;
+        }
+
+        
 }
 .btn {
     color: $big-fon-color;
@@ -51,10 +124,18 @@
     letter-spacing: 0.06em;
     cursor: pointer;
     border-radius: 4px;
-    width: 216px;
+    width: 200px;
     height: 50px;
     margin: 0 auto;
     margin-top: 30px;
+
+    @media screen and (min-width:480px) {}
+    
+        @media screen and (min-width:768px) {}
+    
+        @media screen and (min-width:1200px) {
+            width: 216px;
+        }
 
     &:hover,
     &:focus {

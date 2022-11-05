@@ -3,7 +3,11 @@
     display: flex;
     align-items: baseline;
 
+@media screen and (max-width:480px) {}
 
+    @media screen and (max-width:768px) {}
+
+    @media screen and (max-width:1200px) {}
 }
 
 .main-nav__logo {
@@ -17,6 +21,11 @@
     text-decoration: none;
     margin-right: 93px;
     margin-top: 24px;
+    @media screen and (max-width:480px) {}
+    
+        @media screen and (max-width:768px) {}
+    
+        @media screen and (max-width:1200px) {}
 }
 
 .main-nav__icon {
@@ -27,6 +36,11 @@
     list-style: none;
     display: flex;
     gap: 50px;
+    @media screen and (max-width:480px) {}
+    
+        @media screen and (max-width:768px) {}
+    
+        @media screen and (max-width:1200px) {}
 }
 
 .main-nav__list .main-nav__link+.main-nav__link {
@@ -47,6 +61,11 @@
     &:focus {
             color: var(--acent-color);
            }
+                   @media screen and (max-width:480px) {}
+        
+                   @media screen and (max-width:768px) {}
+        
+                   @media screen and (max-width:1200px) {}
 }
 
 .main-nav__link--current {
@@ -63,12 +82,22 @@
         border-radius: 4px;
         margin-top: 28px;
     }
+        @media screen and (max-width:480px) {}
+    
+        @media screen and (max-width:768px) {}
+    
+        @media screen and (max-width:1200px) {}
 }
 
 .main-nav__list-contacts {
     display: block;
     display: flex;
     margin-left: auto;
+    @media screen and (max-width:480px) {}
+    
+        @media screen and (max-width:768px) {}
+    
+        @media screen and (max-width:1200px) {}
 }
 
 .main-nav__link-contacts {
@@ -87,17 +116,32 @@
     &:focus {
             color: var(--acent-color);
            }
+                   @media screen and (max-width:480px) {}
+        
+                   @media screen and (max-width:768px) {}
+        
+                   @media screen and (max-width:1200px) {}
 }
 
 .main-nav__icon-meil {
     fill: currentColor;
     text-align: center;
     margin-right: 10px;
+    @media screen and (max-width:480px) {}
+    
+        @media screen and (max-width:768px) {}
+    
+        @media screen and (max-width:1200px) {}
 }
 
 .main-nav__icon-tel {
     fill: currentColor;
     margin-right: 10px;
     text-align: center;
+ @media screen and (max-width:480px) {}
+
+    @media screen and (max-width:768px) {}
+
+    @media screen and (max-width:1200px) {}
 }
 
