@@ -171,6 +171,12 @@ h5 {
   text-align: center;
   padding-top: 118px;
 }
+@media screen and (min-width: 480px) {
+  .head {
+    text-align: center;
+    padding-top: 118px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .head {
     text-align: center;
@@ -252,6 +258,19 @@ h5 {
   text-transform: uppercase;
   max-width: 360px;
   margin: 0 auto;
+}
+@media screen and (min-width: 480px) {
+  .title-main-big {
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.61;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    max-width: 360px;
+    margin: 0 auto;
+  }
 }
 @media screen and (min-width: 1200px) {
   .title-main-big {
