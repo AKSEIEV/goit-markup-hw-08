@@ -49,12 +49,12 @@
    max-width: 480px;
    
 @media screen and (min-width:480px) {
-    width: 480px;
+    max-width: 480px;
         height: 400px;
 }
 
     @media screen and (min-width:768px) {
-        width: 768px;
+        max-width: 768px;
             height: 400px;
     }
 
@@ -63,11 +63,6 @@
     }
 }
 
-@media screen and (min-width: 480px) {
-    .overlay.responsive {
-        width:auto ;
-    }
-}
 
 @media screen and (min-width: 768px) {
     .overlay.responsive {
@@ -106,7 +101,15 @@
     }
     
         @media screen and (min-width:768px) {
-            
+        color: $big-fon-color;
+            font-weight: 900;
+            font-size: 26px;
+            line-height: 1.61;
+            text-align: center;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            max-width: 360px;
+            margin: 0 auto;
     }
     
         @media screen and (min-width:1200px) {
