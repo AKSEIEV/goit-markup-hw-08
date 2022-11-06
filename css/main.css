@@ -572,9 +572,14 @@ input[type=tel]:focus {
   list-style: none;
   gap: 30px;
   display: block;
-  display: flex;
-  justify-content: center;
 }
+@media screen and (min-width: 1200px) {
+  .strength__list {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 .strength__item-antenna::before {
   content: "";
   display: block;
@@ -586,16 +591,16 @@ input[type=tel]:focus {
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 4px;
-  width: 270px;
+  width: 100%;
 }
 @media screen and (min-width: 300px) {
   .strength__item-antenna {
-    width: 450px;
+    width: 100%;
   }
 }
 @media screen and (min-width: 768px) {
   .strength__item-antenna {
-    width: 450px;
+    width: 100%;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -615,11 +620,11 @@ input[type=tel]:focus {
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 4px;
-  width: 270px;
+  width: 100%;
 }
 @media screen and (min-width: 300px) {
   .strength__item-clock {
-    width: 450px;
+    width: 100%;
   }
 }
 @media screen and (min-width: 768px) {
@@ -644,11 +649,11 @@ input[type=tel]:focus {
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 4px;
-  width: 270px;
+  width: 100%;
 }
 @media screen and (min-width: 300px) {
   .strength__item-graph {
-    width: 450px;
+    width: 100%;
   }
 }
 @media screen and (min-width: 768px) {
@@ -674,11 +679,11 @@ input[type=tel]:focus {
   background-position: center;
   padding: 25px 100px;
   border-radius: 4px;
-  width: 270px;
+  width: 100%;
 }
 @media screen and (min-width: 300px) {
   .strength__item-space {
-    width: 450px;
+    width: 100%;
   }
 }
 @media screen and (min-width: 768px) {

@@ -19,17 +19,18 @@
     list-style: none;
     gap: 30px;
     display: block;
-    display: flex;
-    justify-content: center;
+    
     
     @media screen and (min-width:300px) {}
     
-        @media screen and (min-width:768px) {}
-    
-        @media screen and (min-width:1200px) {
-            
-            
+        @media screen and (min-width:768px) {
+            display: flex;
+                
         }
+     @media screen and (min-width:1200px) {
+            display: flex;
+                justify-content: center;
+             }
 }
 
 .strength__item-antenna {
@@ -44,15 +45,15 @@
         background-repeat: no-repeat;
         background-position: center;
         border-radius: 4px;
-        width: 270px;
+        width: 100%;
 }
   @media screen and (min-width:300px) {
-width: 450px;
+width: 100%;
   }
 
-  @media screen and (min-width:768px) {
-    width: 450px;
-  }
+   @media screen and (min-width:768px) {
+       width: calc((100%-30px) / 2);
+   }
 
   @media screen and (min-width:1200px) {
     width: 270px;
@@ -72,14 +73,14 @@ width: 450px;
         background-repeat: no-repeat;
         background-position: center;
         border-radius: 4px;
-        width: 270px;
+        width: 100%;
     }
         @media screen and (min-width:300px) {
-            width: 450px;
+            width: 100%;
         }
     
         @media screen and (min-width:768px) {
-            width: 354px;
+            width: calc((100%-30px) / 2);
         }
     
         @media screen and (min-width:1200px) {
@@ -99,14 +100,14 @@ width: 450px;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 4px;
-    width: 270px;
+    width: 100%;
     }
         @media screen and (min-width:300px) {
-            width: 450px;
+            width: 100%;
         }
     
         @media screen and (min-width:768px) {
-            width: 354px;
+            width: calc((100%-30px) / 2);
         }
     
         @media screen and (min-width:1200px) {
@@ -127,14 +128,14 @@ width: 450px;
         background-position: center;
         padding: 25px 100px;
         border-radius: 4px;
-        width: 270px;
+        width: 100%;
 }
 @media screen and (min-width:300px) {
-    width: 450px;
+    width: 100%;
 }
 
 @media screen and (min-width:768px) {
-    width: 354px;
+width: calc((100%-30px) / 2);
 }
 
 @media screen and (min-width:1200px) {
