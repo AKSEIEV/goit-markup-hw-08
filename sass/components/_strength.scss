@@ -1,26 +1,19 @@
 .strength {
-    padding-top: 94px;
-}
-
-.strength--container {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-
-    @media screen and (max-width:480px) {
-            width: 480px;
+    padding-top: 60px;
+    @media screen and (min-width:300px) {
+        padding-top: 60px;
+    }
+    
+        @media screen and (min-width:768px) {
+            padding-top: 60px;
         }
     
-        @media screen and (max-width:768px) {
-            width: 768px;
-        }
-    
-        @media screen and (max-width:1200px) {
-            width: 1200px;
+        @media screen and (min-width:1200px) {
+            padding-top: 94px;
         }
 }
+
+
 
 .strength__list {
     list-style: none;
@@ -28,6 +21,15 @@
     display: block;
     display: flex;
     justify-content: center;
+    
+    @media screen and (min-width:300px) {}
+    
+        @media screen and (min-width:768px) {}
+    
+        @media screen and (min-width:1200px) {
+            
+            
+        }
 }
 
 .strength__item-antenna {
@@ -44,7 +46,17 @@
         border-radius: 4px;
         width: 270px;
 }
-  
+  @media screen and (min-width:300px) {
+width: 450px;
+  }
+
+  @media screen and (min-width:768px) {
+    width: 450px;
+  }
+
+  @media screen and (min-width:1200px) {
+    width: 270px;
+  }
 }
 
 
@@ -62,6 +74,17 @@
         border-radius: 4px;
         width: 270px;
     }
+        @media screen and (min-width:300px) {
+            width: 450px;
+        }
+    
+        @media screen and (min-width:768px) {
+            width: 354px;
+        }
+    
+        @media screen and (min-width:1200px) {
+            width: 270px;
+        }
 }
 
 .strength__item-graph {
@@ -78,6 +101,17 @@
     border-radius: 4px;
     width: 270px;
     }
+        @media screen and (min-width:300px) {
+            width: 450px;
+        }
+    
+        @media screen and (min-width:768px) {
+            width: 354px;
+        }
+    
+        @media screen and (min-width:1200px) {
+            width: 270px;
+        }
    }
 
 .strength__item-space {
@@ -95,7 +129,17 @@
         border-radius: 4px;
         width: 270px;
 }
+@media screen and (min-width:300px) {
+    width: 450px;
+}
 
+@media screen and (min-width:768px) {
+    width: 354px;
+}
+
+@media screen and (min-width:1200px) {
+    width: 270px;
+}
 }
 
 .strength__title {

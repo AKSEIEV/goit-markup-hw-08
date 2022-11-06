@@ -3,7 +3,7 @@ body {
     background-color: var(--big-fon-color);
     color: var(--top-color);
 
-    @media (min-width: 480px) {
+    @media (min-width: 300px) {
              background-color: orange;
             }
     @media (min-width: 768px) {
@@ -53,7 +53,6 @@ header {
 
 img {
     display: block;
-    width: 100%;
     max-width: 100%;
     height: auto;
 }

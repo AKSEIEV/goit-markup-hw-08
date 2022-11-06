@@ -2,14 +2,18 @@
     background: #2f303a;
     text-align: center;
     padding-top: 118px;
+    padding-bottom: 118px;
     
-    @media screen and (min-width:480px) {
+    @media screen and (min-width:300px) {
         text-align: center;
             padding-top: 118px;
+            padding-bottom: 118px;
         }
     
         @media screen and (min-width:768px) {
-            
+            text-align: center;
+            padding-top: 118px;
+            padding-bottom: 118px;
         }
     
         @media screen and (min-width:1200px) {
@@ -27,20 +31,32 @@
     outline: 1px solid black;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
-        url("../img/fon/fon.jpg");
+        url("../img/fon/mobile_header_img.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
 
-    @media screen and (max-width:479px) {
-            width: 480px; 
-            height: 400px;
+    @media screen and (min-width:300px)  {
+        // background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+        //             rgba(47, 48, 58, 0.4)),
+        //         url("../img/fon/mobile_header_img.jpg");
+        //     width: 480px; 
+        //     height: 400px;
+        //     background-size: cover;
         }
     
         @media screen and (min-width:768px) {
+            background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+                    rgba(47, 48, 58, 0.4)),
+                url("../img/fon/tablet_header_img.jpg");
             width: 768px;
             height: 400px;
+            background-size: cover;
         }
     
         @media screen and (min-width:1200px) {
+            background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+                        rgba(47, 48, 58, 0.4)),
+                    url("../img/fon/fon.jpg");
             width: 1200px;
             height: 600px;
         }
@@ -48,9 +64,9 @@
 .overlay.responsive {
    max-width: 480px;
    
-@media screen and (min-width:480px) {
-    max-width: 480px;
-        height: 400px;
+@media screen and (min-width:300px) {
+    // max-width: 480px;
+    //     height: 400px;
 }
 
     @media screen and (min-width:768px) {
@@ -88,38 +104,33 @@
     max-width: 360px;
     margin: 0 auto;
 
-    @media screen and (min-width:480px) {
-        color: $big-fon-color;
-            font-weight: 900;
+    @media screen and (min-width:300px) {
+       
             font-size: 26px;
             line-height: 1.61;
-            text-align: center;
-            letter-spacing: 0.06em;
-            text-transform: uppercase;
+           
+         
             max-width: 360px;
             margin: 0 auto;
     }
     
         @media screen and (min-width:768px) {
-        color: $big-fon-color;
-            font-weight: 900;
+        
             font-size: 26px;
             line-height: 1.61;
             text-align: center;
-            letter-spacing: 0.06em;
-            text-transform: uppercase;
+           
             max-width: 360px;
             margin: 0 auto;
     }
     
         @media screen and (min-width:1200px) {
-            color: $big-fon-color;
-                font-weight: 900;
+           
                 font-size: 44px;
                 line-height: 1.36;
                 text-align: center;
-                letter-spacing: 0.06em;
-                text-transform: uppercase;
+                
+                
                 max-width: 696px;
                 margin: 0 auto;
         }
@@ -141,7 +152,7 @@
     margin: 0 auto;
     margin-top: 30px;
 
-    @media screen and (min-width:480px) {}
+    @media screen and (min-width:300px) {}
     
         @media screen and (min-width:768px) {}
     
