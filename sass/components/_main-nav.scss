@@ -19,11 +19,14 @@
     letter-spacing: 0.03em;
     color: var(--acent-color);
     text-decoration: none;
-    margin-right: 93px;
-    margin-top: 24px;
+    margin: 16px 0px 16px 15px;
+    
     @media screen and (min-width:480px) {}
     
-        @media screen and (min-width:768px) {}
+        @media screen and (min-width:768px) {
+            margin-right: 93px;
+            margin-top: 24px;
+        }
     
         @media screen and (min-width:1200px) {
             font-size: 26px;
@@ -37,11 +40,13 @@
 
 .main-nav__list {
     list-style: none;
-    display: flex;
-    gap: 50px;
+    display: none;
     @media screen and (min-width:480px) {}
     
-        @media screen and (min-width:768px) {}
+        @media screen and (min-width:768px) {
+            display: flex;
+                gap: 50px;
+        }
     
         @media screen and (min-width:1200px) {}
 }
@@ -95,12 +100,16 @@
 }
 
 .main-nav__list-contacts {
-    display: block;
+    display: none;
     
     margin-left: auto;
-    @media screen and (min-width:480px) {}
+    @media screen and (min-width:480px) {
+        
+    }
     
-        @media screen and (min-width:768px) {}
+        @media screen and (min-width:768px) {
+            display: block;
+        }
     
         @media screen and (min-width:1200px) {
             display: flex;

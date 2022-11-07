@@ -93,8 +93,13 @@ h5 {
   letter-spacing: 0.03em;
   color: var(--acent-color);
   text-decoration: none;
-  margin-right: 93px;
-  margin-top: 24px;
+  margin: 16px 0px 16px 15px;
+}
+@media screen and (min-width: 768px) {
+  .main-nav__logo {
+    margin-right: 93px;
+    margin-top: 24px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .main-nav__logo {
@@ -109,8 +114,13 @@ h5 {
 
 .main-nav__list {
   list-style: none;
-  display: flex;
-  gap: 50px;
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .main-nav__list {
+    display: flex;
+    gap: 50px;
+  }
 }
 .main-nav__list .main-nav__link + .main-nav__link {
   margin-left: 40px;
@@ -144,8 +154,13 @@ h5 {
   margin-top: 28px;
 }
 .main-nav__list-contacts {
-  display: block;
+  display: none;
   margin-left: auto;
+}
+@media screen and (min-width: 768px) {
+  .main-nav__list-contacts {
+    display: block;
+  }
 }
 @media screen and (min-width: 1200px) {
   .main-nav__list-contacts {
@@ -610,13 +625,10 @@ input[type=tel]:focus {
   background-size: 65px 70px;
   background-repeat: no-repeat;
   background-position: center;
+  padding-left: 15px;
+  padding-right: 15px;
   border-radius: 4px;
   width: 100%;
-}
-@media screen and (min-width: 300px) {
-  .strength__item-antenna {
-    width: 100%;
-  }
 }
 @media screen and (min-width: 768px) {
   .strength__item-antenna {
@@ -639,13 +651,10 @@ input[type=tel]:focus {
   background-size: 67px 70px;
   background-repeat: no-repeat;
   background-position: center;
+  padding-left: 15px;
+  padding-right: 15px;
   border-radius: 4px;
   width: 100%;
-}
-@media screen and (min-width: 300px) {
-  .strength__item-clock {
-    width: 100%;
-  }
 }
 @media screen and (min-width: 768px) {
   .strength__item-clock {
@@ -670,11 +679,8 @@ input[type=tel]:focus {
   background-position: center;
   border-radius: 4px;
   width: 100%;
-}
-@media screen and (min-width: 300px) {
-  .strength__item-graph {
-    width: 100%;
-  }
+  padding-left: 15px;
+  padding-right: 15px;
 }
 @media screen and (min-width: 768px) {
   .strength__item-graph {
@@ -697,14 +703,10 @@ input[type=tel]:focus {
   background-size: 55px 61px;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 25px 100px;
+  padding-left: 15px;
+  padding-right: 15px;
   border-radius: 4px;
   width: 100%;
-}
-@media screen and (min-width: 300px) {
-  .strength__item-space {
-    width: 100%;
-  }
 }
 @media screen and (min-width: 768px) {
   .strength__item-space {
@@ -793,11 +795,17 @@ input[type=tel]:focus {
 
 .title-main-medium {
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
+  font-size: 28px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
   margin-bottom: 50px;
+}
+@media screen and (min-width: 1200px) {
+  .title-main-medium {
+    font-size: 36px;
+    line-height: 1.16;
+  }
 }
 
 .flex-team {
@@ -1092,7 +1100,7 @@ input[type=tel]:focus {
   padding: 15px 16px;
   display: inline-block;
   border: 1px solid rgba(33, 33, 33, 0.2);
-  width: 358px;
+  width: 450px;
   height: 50px;
   border-radius: 4px;
   background-color: inherit;
@@ -1103,6 +1111,11 @@ input[type=tel]:focus {
   outline: transparent;
   resize: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media screen and (min-width: 1200px) {
+  .e-mail-input {
+    width: 358px;
+  }
 }
 
 .btn-mail {
