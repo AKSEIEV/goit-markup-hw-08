@@ -570,16 +570,16 @@ input[type=tel]:focus {
 
 .strength__list {
   list-style: none;
-  gap: 30px;
   display: block;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .strength__list {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
   }
 }
-
 .strength__item-antenna::before {
   content: "";
   display: block;
@@ -600,7 +600,7 @@ input[type=tel]:focus {
 }
 @media screen and (min-width: 768px) {
   .strength__item-antenna {
-    width: 100%;
+    width: 354px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -718,14 +718,6 @@ input[type=tel]:focus {
   padding-bottom: 94px;
 }
 
-.work--container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .work__title {
   font-weight: 700;
   font-size: 36px;
@@ -785,17 +777,15 @@ input[type=tel]:focus {
 .flex-team {
   background: #f5f4fa;
   display: block;
-  display: flex;
-  gap: 30px;
-  justify-content: center;
 }
 
 .list-item {
-  display: contents;
+  display: flex;
   gap: 30px;
   padding-bottom: 94px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-
 .border-item {
   display: block;
   padding-top: 25px;
@@ -810,19 +800,23 @@ input[type=tel]:focus {
   text-align: center;
 }
 
-.container-team {
-  display: block;
-  display: flex;
-  padding-bottom: 95px;
-  background: #f5f4fa;
+.img-team {
+  width: 450px;
+  height: 460px;
 }
-
 .list-team {
   background: #f5f4fa;
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
+@media screen and (min-width: 768px) {
+  .list-team {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+}
 .item-team img {
   border-radius: 0px;
 }
