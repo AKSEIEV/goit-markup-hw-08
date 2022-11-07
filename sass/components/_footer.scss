@@ -1,19 +1,18 @@
 .footer-container {
     background-color: #2f303a;
+    width: 480px;
     height: 603px;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    
 
-    @media screen and (min-width:480px) {
-         
-    }
     
         @media screen and (min-width:768px) {
+            width: 100%;
             height: 463px;
         }
     
         @media screen and (min-width:1200px) {
-            height: 252px;
+            height: 100%;
+            padding-bottom: 60px;
         }
 }
 
@@ -93,7 +92,13 @@
 
 
 .seti-footer {
-    margin-left: 70px;
+    margin-bottom: 60px;
+        margin-top: 60px;
+    
+    
+        @media screen and (min-width:1200px) {
+            margin-left: 70px;
+        }
 }
 
 .seti-title {
@@ -156,9 +161,17 @@
 }
 
 .form-mail {
-    display: flex;
-    align-items: flex-end;
-    gap: 12px;
+    display: block;
+
+    @media screen and (min-width:480px) {}
+    
+        @media screen and (min-width:768px) {}
+    
+        @media screen and (min-width:1200px) {
+            display: flex;
+                align-items: flex-end;
+                gap: 12px;
+        }
 }
 
 .e-mail-input {
