@@ -955,6 +955,8 @@ input[type=tel]:focus {
   background-color: #2f303a;
   width: 480px;
   height: 603px;
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
 @media screen and (min-width: 768px) {
   .footer-container {
@@ -977,6 +979,7 @@ input[type=tel]:focus {
     display: flex;
     align-items: baseline;
     justify-content: space-around;
+    text-align: left;
   }
 }
 
@@ -1030,10 +1033,6 @@ input[type=tel]:focus {
   color: var(--acent-color);
 }
 
-.seti-footer {
-  margin-bottom: 60px;
-  margin-top: 60px;
-}
 @media screen and (min-width: 1200px) {
   .seti-footer {
     margin-left: 70px;
