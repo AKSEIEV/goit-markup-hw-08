@@ -955,8 +955,6 @@ input[type=tel]:focus {
   background-color: #2f303a;
   width: 480px;
   height: 603px;
-  padding-bottom: 60px;
-  padding-top: 60px;
 }
 @media screen and (min-width: 768px) {
   .footer-container {
@@ -971,6 +969,11 @@ input[type=tel]:focus {
   }
 }
 
+.footer {
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
 .flex-footer {
   text-align: center;
 }
@@ -983,6 +986,13 @@ input[type=tel]:focus {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .footer-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+}
 .logo-footer {
   font-family: "Raleway", sans-serif;
   font-style: normal;
