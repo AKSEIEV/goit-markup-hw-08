@@ -11,7 +11,6 @@
     
         @media screen and (min-width:1200px) {
             height: 100%;
-            padding-bottom: 60px;
         }
 }
 
@@ -174,7 +173,10 @@
 
 
 .seti-footer-mail {
-    margin-left: 93px;
+    @media screen and (min-width:1200px) {
+       margin-left: 93px;
+    }
+    
 }
 
 .form-mail {
@@ -194,9 +196,8 @@
 .e-mail-input {
     width: 100%;
     padding: 15px 16px;
-    display: inline-block;
+    display: block;
     border: 1px solid rgba(33, 33, 33, 0.2);
-    width: 450px;
     height: 50px;
     border-radius: 4px;
     background-color: inherit;
@@ -208,11 +209,16 @@
     resize: none;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        @media screen and (min-width:480px) {}
+        @media screen and (min-width:480px) {
+            margin-bottom: 20px;
+        }
         
-            @media screen and (min-width:768px) {}
+            @media screen and (min-width:768px) {
+ max-width: 450px
+            }
         
             @media screen and (min-width:1200px) {
+                margin-bottom: 0;
                 width: 358px;
             }
 }
