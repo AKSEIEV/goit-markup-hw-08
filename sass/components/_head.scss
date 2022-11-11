@@ -34,15 +34,6 @@
         url("../img/fon/mobile_header_img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-
-    @media screen and (min-width:300px)  {
-        // background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-        //             rgba(47, 48, 58, 0.4)),
-        //         url("../img/fon/mobile_header_img.jpg");
-        //     width: 480px; 
-        //     height: 400px;
-        //     background-size: cover;
-        }
     
         @media screen and (min-width:768px) {
             background-image: linear-gradient(rgba(47, 48, 58, 0.4),
