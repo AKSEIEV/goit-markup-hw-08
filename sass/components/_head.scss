@@ -34,31 +34,43 @@
         url("../img/fon/mobile_header_img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+       
+    @include two_x_retina {
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)),
+            url("../img/fon/fon__2x__mobile.jpg")
+            
+        }
     
-        @media screen and (min-width:768px) {
+    @media screen and (min-width:768px) {
             background-image: linear-gradient(rgba(47, 48, 58, 0.4),
                     rgba(47, 48, 58, 0.4)),
                 url("../img/fon/tablet_header_img.jpg");
             width: 768px;
             height: 400px;
             background-size: cover;
+            @include two_x_retina {
+                    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+                            rgba(47, 48, 58, 0.4)),
+                        url("../img/fon/fon__2x__tablet.jpg")
+                }
         }
     
-        @media screen and (min-width:1200px) {
+    @media screen and (min-width:1200px) {
             background-image: linear-gradient(rgba(47, 48, 58, 0.4),
                         rgba(47, 48, 58, 0.4)),
                     url("../img/fon/fon.jpg");
             width: 1200px;
             height: 600px;
+        @include two_x_retina {
+                    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+                            rgba(47, 48, 58, 0.4)),
+                        url("../img/fon/fon__2x__desktop.jpg")
+                }
         }
 }
 .overlay.responsive {
    max-width: 480px;
-   
-@media screen and (min-width:300px) {
-    // max-width: 480px;
-    //     height: 400px;
-}
 
     @media screen and (min-width:768px) {
         max-width: 768px;
