@@ -221,15 +221,33 @@
         <div class="flex-team list">
           <ul class="list-item">
             <li>
-              <div class="item-team">
-                <img class="img-team"
-                  srcset="./img/teamIII/"
+
+              <picture>
+               <source 
+                 srcset="./img/teamIII/img.jpg 1x,
+                  ./img/teamIII/igor__2x__desktop.jpg 2x"
+                  media="(min-width: 1200px)">
+              <source 
+                  srcset="./img/teamIII/igor_tablet_354_374.jpg 1x,
+                  ./img/teamIII/igor__2x__tablet.jpg 2x"
+                  media="(min-width: 768px)"
+                  >
+               <source
+                  srcset="./img/teamIII/igor_mobile_450_460.jpg 1x, 
+                  ./img/teamIII/igor__2x__mobile.jpg 2x"
+                  media="(max-width: 767px)">
+             </picture>
+
+              
+                
+              <img class="img-team"
+                  srcset="./img/teamIII/img.jpg 1x,
+                  ./img/teamIII/igor__2x__desktop.jpg 2x"
                   src="./img/teamIII/img.jpg"
                   alt="team"
-                  width="270"
+                  width="450"
                   height="260"
                 />
-              </div>
 
 
               <div class="border-item">
@@ -270,14 +288,16 @@
               </div>
             </li>
             <li>
-              <div class="item-team">
+              
                 <img class="img-team"
+                srcset="./img/teamIII/img2.jpg 1x,
+                  ./img/teamIII/olga__2x__desktop.jpg 2x"
                   src="./img/teamIII/img2.jpg"
                   alt="team"
                   width="270"
                   height="260"
                 />
-              </div>
+              
 
 
               <div class="border-item">
@@ -318,14 +338,16 @@
               </div>
             </li>
             <li>
-              <div class="item-team">
+              
                 <img class="img-team"
+                srcset="./img/teamIII/img3.jpg 1x,
+                  ./img/teamIII/mukola__2x__desktop.jpg 2x"
                   src="./img/teamIII/img3.jpg"
                   alt="team"
                   width="270"
                   height="260"
                 />
-              </div>
+              
 
 
               <div class="border-item">
@@ -367,14 +389,16 @@
             </li>
 
             <li>
-              <div class="item-team">
+              
                 <img class="img-team"
+                  srcset="./img/teamIII/img4.jpg 1x,
+                  ./img/teamIII/mihailo__2x__desktop.jpg 2x"
                   src="./img/teamIII/img4.jpg"
                   alt="team"
                   width="270"
                   height="260"
                 />
-              </div>
+              
 
 
               <div class="border-item">
