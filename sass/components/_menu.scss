@@ -1,12 +1,12 @@
 button.btn__menu  {
 cursor: pointer;
-    border-radius: none;
+    border: none;
     background-color: $big-fon-color;
-    margin: 0 auto;
+    margin-left: auto;
     
 }
 
-.blablabla {
+.drop {
     display: flex;
     position: fixed;
     top: 0;
@@ -31,7 +31,8 @@ cursor: pointer;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
-    width: 528px;
+    width: 480px;
+    height: 796px;
     background: #ffffff;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border: none;
