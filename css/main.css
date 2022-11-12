@@ -2,6 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: var(--big-fon-color);
   color: var(--top-color);
+  overflow-x: hidden;
 }
 
 :root {
@@ -69,6 +70,7 @@ h5 {
   display: flex;
   align-items: baseline;
 }
+
 .main-nav__logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -107,6 +109,7 @@ h5 {
     gap: 50px;
   }
 }
+
 .main-nav__list .main-nav__link + .main-nav__link {
   margin-left: 40px;
 }
@@ -124,6 +127,7 @@ h5 {
 .main-nav__link:hover, .main-nav__link:focus {
   color: var(--acent-color);
 }
+
 .main-nav__link--current {
   color: var(--acent-color);
 }
@@ -138,6 +142,7 @@ h5 {
   border-radius: 4px;
   margin-top: 28px;
 }
+
 .main-nav__list-contacts {
   display: none;
   margin-left: auto;
@@ -181,11 +186,13 @@ h5 {
   text-align: center;
   margin-right: 10px;
 }
+
 .main-nav__icon-tel {
   fill: currentColor;
   margin-right: 10px;
   text-align: center;
 }
+
 .head {
   background: #2f303a;
   text-align: center;
@@ -254,9 +261,6 @@ h5 {
   }
 }
 
-.overlay.responsive {
-  max-width: 480px;
-}
 @media screen and (min-width: 768px) {
   .overlay.responsive {
     max-width: 768px;
@@ -289,14 +293,6 @@ h5 {
   text-transform: uppercase;
   max-width: 360px;
   margin: 0 auto;
-}
-@media screen and (min-width: 300px) {
-  .title-main-big {
-    font-size: 26px;
-    line-height: 1.61;
-    max-width: 360px;
-    margin: 0 auto;
-  }
 }
 @media screen and (min-width: 768px) {
   .title-main-big {
@@ -587,7 +583,7 @@ input[type=tel]:focus {
 .strength {
   padding-top: 60px;
 }
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 320px) {
   .strength {
     padding-top: 60px;
   }
@@ -615,6 +611,7 @@ input[type=tel]:focus {
     gap: 30px;
   }
 }
+
 .strength__item-antenna::before {
   content: "";
   display: block;
@@ -953,16 +950,18 @@ input[type=tel]:focus {
   align-items: center;
   justify-content: center;
 }
+
 .clients-item {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .clients-icon {
   fill: currentColor;
 }
 
 .clients-link {
   display: flex;
-  width: 170px;
+  width: 210px;
   height: 92px;
   align-items: center;
   justify-content: center;
@@ -975,6 +974,17 @@ input[type=tel]:focus {
   color: #2196f3;
   border: 1px solid #2196f3;
 }
+@media screen and (min-width: 768px) {
+  .clients-link {
+    width: 226px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .clients-link {
+    width: 170px;
+  }
+}
+
 .footer-container {
   background-color: #2f303a;
   width: 480px;
@@ -1157,7 +1167,7 @@ input[type=tel]:focus {
   resize: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .e-mail-input {
     margin-bottom: 20px;
   }
