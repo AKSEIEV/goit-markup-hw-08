@@ -33,7 +33,6 @@
         url("../img/fon/mobile_header_img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-       
     @include two_x_retina {
         background-image: linear-gradient(rgba(47, 48, 58, 0.4),
                 rgba(47, 48, 58, 0.4)),
@@ -59,7 +58,7 @@
             background-image: linear-gradient(rgba(47, 48, 58, 0.4),
                         rgba(47, 48, 58, 0.4)),
                     url("../img/fon/fon.jpg");
-            width: 1200px;
+            width: 1600px;
             height: 600px;
         @include two_x_retina {
                     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
@@ -90,7 +89,7 @@
 
 @media screen and (min-width: 1200px) {
     .overlay.responsive {
-        max-width: 1200px;
+        max-width: 1600px;
     }
 }
     
