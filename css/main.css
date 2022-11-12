@@ -1329,6 +1329,11 @@ button.btn__menu {
   color: #2196F3;
 }
 
+.menu__social-item {
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+  padding: 10px;
+}
+
 .is-hidden {
   visibility: hidden;
   pointer-events: none;
