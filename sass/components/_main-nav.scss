@@ -54,18 +54,25 @@
 .main-nav__link {
     color: var(--top-color);
     font-weight: 500;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
+    font-size: 40px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
     text-decoration: none;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    
 
     &:hover,
     &:focus {
             color: var(--acent-color);
            }
-                   
+                          @media screen and (min-width:768px) {
+                            font-size: 14px;
+                            line-height: 1.71;
+                            letter-spacing: 0.03em;
+                            padding-top: 32px;
+                            padding-bottom: 32px;
+                          }
+            
+                          @media screen and (min-width:1200px) {}
 }
 
 .main-nav__link--current {
@@ -86,13 +93,13 @@
 }
 
 .main-nav__list-contacts {
-    // display: none;
+    margin-top: 302px;
     
-    margin-left: auto;
    
     
         @media screen and (min-width:768px) {
             display: block;
+            margin-left: auto;
         }
     
         @media screen and (min-width:1200px) {
@@ -103,9 +110,10 @@
 .main-nav__link-contacts {
     color: var(--text-color);
     font-weight: 500;
-    font-size: 12px;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
+    font-size: 34px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    
     text-decoration: none;
     
     display: flex;
@@ -117,8 +125,13 @@
             color: var(--acent-color);
            }
         
-                   @media screen and (min-width:768px) {}
-                    padding-bottom: 10px;
+                   @media screen and (min-width:768px) {
+                        font-size: 12px;
+                        line-height: 1.16;
+                        letter-spacing: 0.03em;
+                        padding-bottom: 10px;
+                   }
+                    
                    @media screen and (min-width:1200px) {
                     padding: 15px;
                     font-size: 14px;
@@ -130,13 +143,19 @@
     fill: currentColor;
     text-align: center;
     margin-right: 10px;
-    
+    display: none;
+    @media screen and (min-width:768px) {
+        display: block;
+    }
 }
 
 .main-nav__icon-tel {
     fill: currentColor;
     margin-right: 10px;
     text-align: center;
- 
+    display: none;
+@media screen and (min-width:768px) {
+display: block;
+}
 }
 

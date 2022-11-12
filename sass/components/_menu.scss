@@ -3,8 +3,9 @@ cursor: pointer;
     border: none;
     background-color: $big-fon-color;
     margin-left: auto;
-    
 }
+
+
 
 .drop {
     display: flex;
@@ -56,4 +57,14 @@ cursor: pointer;
         fill: #2196f3;
     }
 }
+   .menu__social-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+   }
+
+   .menu__social-list a {
+    color: #2196F3;
+   }
+ 
 
