@@ -31,10 +31,26 @@
 
 
         <nav class="main-nav">
+
           <a class="main-nav__logo" href="WebStudio"
             >Web<span class="main-nav__icon">Studio</span>
           </a>
+          
+          <button data-menu-open class="btn__menu" >
+                  <svg class="btn__menu__item" width="24px" height="16px">
+                  <use href="./img/menu_24x16.svg#icon-menu_24px16px"></use>
+                </svg>
+              </button>
+              <div class="blablabla is-hidden" data-menu>
+              <div class="menu">
+                
+                <button class="btn-x" data-menu-close>
+                  <svg class="btn-item" width="19px" height="19px">
+                  <use href="./img/close_menu.svg#icon-close_menu"></use>
+                </svg></button>
+                
           <ul class="main-nav__list">
+
             <li><a class="main-nav__link main-nav__link--current" href="Студія">Студія</a></li>
             <li>
               <a class="main-nav__link" href="./portfolio.html">Портфоліо</a>
