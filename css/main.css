@@ -74,7 +74,21 @@ a {
   display: flex;
   align-items: baseline;
 }
-
+@media screen and (min-width: 768px) {
+  .main-nav {
+    display: none;
+  }
+}
+.main-nav-two {
+  text-align: center;
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .main-nav-two {
+    display: flex;
+    align-items: baseline;
+  }
+}
 .main-nav__logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
