@@ -970,6 +970,11 @@ input[type=tel]:focus {
   border-radius: 0px 0px 4px 4px;
   background: #ffffff;
 }
+@media screen and (min-width: 480px) {
+  .border-item {
+    width: 450px;
+  }
+}
 @media screen and (min-width: 768px) {
   .border-item {
     max-width: 354px;
@@ -981,6 +986,11 @@ input[type=tel]:focus {
   }
 }
 
+@media screen and (min-width: 480px) {
+  .team-img {
+    width: 450px;
+  }
+}
 @media screen and (min-width: 768px) {
   .team-img {
     max-width: 354px;
