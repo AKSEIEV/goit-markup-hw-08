@@ -972,7 +972,7 @@ input[type=tel]:focus {
 }
 @media screen and (min-width: 768px) {
   .border-item {
-    width: 354px;
+    max-width: 354px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -983,7 +983,7 @@ input[type=tel]:focus {
 
 @media screen and (min-width: 768px) {
   .team-img {
-    width: 354px;
+    max-width: 354px;
   }
 }
 @media screen and (min-width: 1200px) {
