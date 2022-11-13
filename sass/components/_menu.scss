@@ -44,13 +44,11 @@ cursor: pointer;
 
 .btn__x__menu {
     position: absolute;
-    
-    
     background: #ffffff;
     border: none;
     cursor: pointer;
-    top: 8px;
-    right: 8px;
+    top: 20px;
+    right: 16px;
 
     &:focus,
     &:hover {
@@ -74,6 +72,6 @@ cursor: pointer;
  
 .menu__social-item {
         border-right: 1px solid rgba(33, 33, 33, 0.2);
-        padding-right: 26px;
+        padding-right: 16px;
         
 }
