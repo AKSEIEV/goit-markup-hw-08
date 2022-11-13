@@ -144,7 +144,7 @@ font-weight: 500;
 .main-nav__link-contacts {
     color: var(--text-color);
     font-weight: 500;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1.16;
     letter-spacing: 0.02em;
     text-decoration: none;
@@ -157,6 +157,9 @@ font-weight: 500;
     &:focus {
             color: var(--acent-color);
            }
+                   @media screen and (min-width:480px) {
+                    font-size: 24px;
+                   }
         
                    @media screen and (min-width:768px) {
                         font-size: 12px;
@@ -176,7 +179,7 @@ font-weight: 500;
 .main-nav__link-tel {
     color: var(--text-color);
     font-weight: 500;
-    font-size: 34px;
+    font-size: 24px;
     line-height: 1.17;
     letter-spacing: 0.02em;
 
@@ -190,7 +193,9 @@ font-weight: 500;
     &:focus {
         color: var(--acent-color);
     }
-
+@media screen and (min-width:480px) {
+    font-size: 34px;
+}
     @media screen and (min-width:768px) {
         font-size: 12px;
         line-height: 1.16;
