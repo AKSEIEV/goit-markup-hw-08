@@ -943,22 +943,12 @@ input[type=tel]:focus {
   display: block;
   padding-top: 25px;
   padding-bottom: 25px;
-  width: 450px;
+  width: 100%;
+  height: auto;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   background: #ffffff;
 }
-@media screen and (min-width: 768px) {
-  .border-item {
-    width: 354px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .border-item {
-    width: 270px;
-  }
-}
-
 .item-team {
   text-align: center;
 }
@@ -978,20 +968,6 @@ input[type=tel]:focus {
 }
 .item-team img {
   border-radius: 0px;
-}
-
-.team-img {
-  width: 450px;
-}
-@media screen and (min-width: 768px) {
-  .team-img {
-    width: 354px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .team-img {
-    width: 270px;
-  }
 }
 
 .title-main-tiny {
@@ -1370,10 +1346,15 @@ button.btn__menu {
   border: none;
   cursor: pointer;
   top: 20px;
-  right: 16px;
+  right: 36px;
 }
 .btn__x__menu:focus, .btn__x__menu:hover {
   fill: #2196f3;
+}
+@media screen and (min-width: 480px) {
+  .btn__x__menu {
+    right: 16px;
+  }
 }
 
 .menu__social-list {

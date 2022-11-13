@@ -48,12 +48,16 @@ cursor: pointer;
     border: none;
     cursor: pointer;
     top: 20px;
-    right: 16px;
+    right: 36px;
 
     &:focus,
     &:hover {
         fill: #2196f3;
     }
+
+         @media screen and (min-width:480px) {
+            right: 16px;
+         }
 }
    .menu__social-list {
     display: flex;
