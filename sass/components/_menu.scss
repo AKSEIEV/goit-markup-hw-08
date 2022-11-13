@@ -65,11 +65,15 @@ cursor: pointer;
    }
 
    .menu__social-list a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.22;
+    letter-spacing: 0.02em; 
     color: #2196F3;
-    
-   }
+ }
  
 .menu__social-item {
         border-right: 1px solid rgba(33, 33, 33, 0.2);
-        padding: 10px;
+        padding-right: 26px;
+        
 }
