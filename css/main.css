@@ -970,6 +970,28 @@ input[type=tel]:focus {
   border-radius: 0px 0px 4px 4px;
   background: #ffffff;
 }
+@media screen and (min-width: 768px) {
+  .border-item {
+    width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .border-item {
+    width: 270px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .team-img {
+    width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team-img {
+    width: 270px;
+  }
+}
+
 .item-team {
   text-align: center;
 }
