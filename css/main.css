@@ -1382,6 +1382,7 @@ button.btn__menu {
   padding: 40px;
   flex-direction: column;
   justify-content: space-between;
+  overflow: auto;
 }
 
 .btn__x__menu {
