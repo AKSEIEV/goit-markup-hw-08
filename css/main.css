@@ -602,13 +602,11 @@ a {
   position: relative;
   display: block;
   margin-right: 7px;
-  width: 35px;
-  height: 20px;
   cursor: pointer;
   border-radius: 2px;
   border: 2px solid #212121;
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .text-dogovir::before {
     width: 16px;
     height: 15px;
@@ -710,20 +708,12 @@ input[type=tel]:focus {
 
 .strength {
   padding-top: 60px;
-}
-@media screen and (min-width: 320px) {
-  .strength {
-    padding-top: 60px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .strength {
-    padding-top: 60px;
-  }
+  padding-bottom: 60px;
 }
 @media screen and (min-width: 1200px) {
   .strength {
     padding-top: 94px;
+    padding-bottom: 0px;
   }
 }
 
@@ -1003,6 +993,8 @@ input[type=tel]:focus {
 }
 @media screen and (min-width: 768px) {
   .list-team {
+    padding-top: 60px;
+    padding-bottom: 60px;
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -1069,6 +1061,12 @@ input[type=tel]:focus {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+@media screen and (min-width: 768px) {
+  .link-clients {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
 .clients-title {
   font-weight: 700;
   font-size: 36px;
@@ -1076,6 +1074,13 @@ input[type=tel]:focus {
   letter-spacing: 0.03em;
   text-align: center;
   margin-bottom: 50px;
+}
+@media screen and (min-width: 768px) {
+  .clients-title {
+    font-size: 28px;
+    line-height: 1.18;
+    margin-bottom: 30px;
+  }
 }
 .clients-list {
   display: flex;
@@ -1401,7 +1406,6 @@ button.btn__menu {
   display: flex;
   justify-content: space-between;
   margin-top: 64px;
-  margin-bottom: 64px;
 }
 
 .menu__social-list a {
