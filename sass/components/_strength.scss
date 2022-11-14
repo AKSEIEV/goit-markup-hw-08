@@ -148,6 +148,10 @@ width: 354px;
     letter-spacing: 0.03em;
     margin-bottom: 10px;
     border: none;
+    text-align: center;
+    @media screen and (min-width:768px) {
+        text-align: left;
+    }
 }
 
 .strength__text {

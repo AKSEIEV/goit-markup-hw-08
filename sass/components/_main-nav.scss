@@ -116,9 +116,11 @@
             @media screen and (min-width:768px) {
                 flex-direction: row;
 }
+ @media screen and (min-width:1200px) {
+    gap: 50px;
+ }
 }
 .main-nav__list-contacts {
-    margin-top: 302px;
     display: flex;
     flex-direction: column-reverse;
     @media screen and (min-width:768px) {
@@ -175,6 +177,8 @@ font-weight: 500;
                     line-height: 1.71;
                    }
 }
+
+.main-nav__full-list 
 
 .main-nav__link-tel {
     color: var(--text-color);
