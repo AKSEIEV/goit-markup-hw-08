@@ -730,6 +730,9 @@ input[type=tel]:focus {
   }
 }
 
+.strength__item-antenna {
+  margin-bottom: 30px;
+}
 .strength__item-antenna::before {
   content: "";
   display: block;
@@ -748,6 +751,7 @@ input[type=tel]:focus {
 @media screen and (min-width: 768px) {
   .strength__item-antenna {
     width: 354px;
+    margin-bottom: 0px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -756,6 +760,9 @@ input[type=tel]:focus {
   }
 }
 
+.strength__item-clock {
+  margin-bottom: 30px;
+}
 .strength__item-clock::before {
   content: "";
   display: block;
@@ -774,6 +781,7 @@ input[type=tel]:focus {
 @media screen and (min-width: 768px) {
   .strength__item-clock {
     width: 354px;
+    margin-bottom: 0px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -782,6 +790,9 @@ input[type=tel]:focus {
   }
 }
 
+.strength__item-graph {
+  margin-bottom: 30px;
+}
 .strength__item-graph::before {
   content: "";
   display: block;
@@ -800,6 +811,7 @@ input[type=tel]:focus {
 @media screen and (min-width: 768px) {
   .strength__item-graph {
     width: 354px;
+    margin-bottom: 0px;
   }
 }
 @media screen and (min-width: 1200px) {
