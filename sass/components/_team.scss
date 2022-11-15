@@ -47,8 +47,10 @@
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     background: #ffffff;
+   
+
     @media screen and (min-width: 480px) {
-        width: 450px;
+        width: 100%;
     }
         @media screen and (min-width: 768px) {
             max-width: 354px;
@@ -59,7 +61,8 @@
         }
 }
 
-.team-img {
+.team-img{
+     width: 100%;
     @media screen and (min-width: 480px) {
             width: 450px;
         }
@@ -103,7 +106,10 @@
             flex-wrap: wrap;
         }
     
-        @media screen and (min-width:1200px) {}
+        @media screen and (min-width:1200px) {
+            padding-top: 94px;
+            padding-bottom: 94px;
+        }
 }
 
 .item-team img {
