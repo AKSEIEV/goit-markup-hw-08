@@ -966,6 +966,25 @@ input[type=tel]:focus {
   }
 }
 
+.team-content {
+  width: 100%;
+}
+@media screen and (min-width: 480px) {
+  .team-content {
+    width: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .team-content {
+    max-width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team-content {
+    width: 270px;
+  }
+}
+
 .team-img {
   width: 100%;
 }
